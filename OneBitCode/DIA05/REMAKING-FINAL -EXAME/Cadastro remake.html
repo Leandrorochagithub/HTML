@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <h3>Astronaut league Register</h3>
+        <section>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Typing your name here..." required>
+            <p>
+                <label for="Email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required> - 
+                <label for="Password"> Password: </label>
+                <input type="password" id="password" name="password" required>
+            </p>
+            <p>
+                <label for="Birth date">Birth date: </label>
+                <input type="date" id="Birth date" name="Birth date"> - 
+                <label for="Photo">Photo: </label>
+                <input type="file">
+            </p>
+        </section>
+        <section>
+            <label for="Nationality">Nationality: </label> 
+            <select name="Nationality" id="Nationality">
+                <option value="Nationality"> Brazilian</option>
+                <option value="Nationality">British</option>
+                <option value="Nationality">French</option>
+                <option value="Nationality">American</option>
+            </select> - 
+            Gender:
+            <label for="Gender">F</label>
+            <input type="radio" id="Gender" name="Gender" value="F">
+            <label for="Gender">M</label>
+            <input type="radio" id="Gender" name="Gender" value="M">
+            <p> You main Qualities:
+                <input type="checkbox" name="intel" id="intel">
+                <label for="Qualities">Intelligence</label> |
+                            <input type="checkbox" name="Resi" id="Resi">     <label for="Qualities">Resilience</label> |
+                <input type="checkbox" name="physic" id="physic"> 
+                            <label for="Qualities">Physical Preparation</label> |
+                <input type="checkbox" name="edu" id="edu">                
+                            <label for="Qualities">Education</label>
+            </p>
+        </section>
+        <section>
+            <textarea name="Description" id="Description" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Send">   
+            </br>
+            
+        </section>
+
+    </header>
+</body>
+</html>
